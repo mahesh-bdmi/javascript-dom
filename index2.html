@@ -1,10 +1,28 @@
 <html>
   <head>
     <title>DOM Traversal</title>
-    <script src="domTraversal.js" defer></script>
+    <!-- <script src="domTraversal.js" defer></script> -->
+    <script src="eventListeners.js" defer></script>
+    <link rel="stylesheet" href="index2.css" />
   </head>
   <body>
-    <div><h1>Hello World</h1></div>
-    <div><h2>How are you doing?</h2></div>
+    <div><h1>Background Color:</h1></div>
+    <div class="button-cls">
+      <button>Button 1</button>
+      <button>Button 2</button>
+      <button>Button 3</button>
+    </div>
+    <div class="button-back">
+      <button style="margin-top: 10px">Change Background</button>
+    </div>
+    <main>
+      <div class="grandparent box">
+        Grand Parent
+        <div class="parent box">
+          Parent
+          <div class="child box">Child</div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
